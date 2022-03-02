@@ -1,4 +1,11 @@
-#on vaja luua suvalisi numbreid et täringu mängu mängida
+#Täringud
+#kuvatakse korrektne arusaadav küsimus ja hiljem vastus - 1p
+#kasutaja võistleb kahe täringuga arvuti vastu - 1p
+#kasutaja teeb pakkumise ning suurima täringupunktisumma võitja saab laual oleva raha endale - 2p
+#kood kommenteeritud - 1p
+	
+
+#On vaja luua suvalisi numbreid et täringu mängu mängida
 import random
 
 Mängia1_score = 0
