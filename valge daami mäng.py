@@ -1,5 +1,16 @@
 import random
 import time
+#MENÜÜ TAOLINE ASI
+print("Valge Daam")
+algus = int(input("1. ALUSTA MÄNGU 2. LOAD 3. EXIT 4.PEIDETUD JÄRGMINE PEATÜKK"))
+print()
+if algus == 4:
+    print("EI SAA SEDA MÄNGIDA KUI POLE STEAMI")
+    print("MÄNGIMISEKS TULEB MAKSTA 59.99$")
+    int(input("SISESTAGE OMA PANGAKAARDI ANDMED: "))
+    input("SISESTAGE OMA VANUS: ")
+    
+    exit()
 
 def displayIntro():
     print("")
@@ -45,7 +56,7 @@ def checkPath(chosenPath):
         print("Kaupmees vastas karjatades: VALGE DAAM!!!")
         print("")
     else:
-        print("Mööda koridori tuppa kõndides näed sa palju vanu pilte ja esemeid ning kuuled kummalisi häälitsusi.")
+        print("Sa otsustasid et lähed teise tuppa")
         print("Järsult tuleb sul kananahk peale ja tekib tunne nagu keegi vaataks sind...")
         print("Sa tunned et keegi vaatab sind tagant ja vaatad selja taha... ")
         print("Korraga sa kuuled et keegi jookseks sinu poole... ")
