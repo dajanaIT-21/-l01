@@ -23,7 +23,7 @@ if algus == 3:
     print("MÄNGIMISEKS TULEB MAKSTA 59.99$")
     int(input("SISESTAGE OMA PANGAKAARDI ANDMED: "))
     input("SISESTAGE OMA VANUS: ")
-    PRINT("Lmao imik")
+    print("Lmao imik")
     
 
 def displayIntro():
